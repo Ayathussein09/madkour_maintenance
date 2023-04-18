@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include madkour_maintenance *.css
+recursive-include madkour_maintenance *.csv
+recursive-include madkour_maintenance *.html
+recursive-include madkour_maintenance *.ico
+recursive-include madkour_maintenance *.js
+recursive-include madkour_maintenance *.json
+recursive-include madkour_maintenance *.md
+recursive-include madkour_maintenance *.png
+recursive-include madkour_maintenance *.py
+recursive-include madkour_maintenance *.svg
+recursive-include madkour_maintenance *.txt
+recursive-exclude madkour_maintenance *.pyc
